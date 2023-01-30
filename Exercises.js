@@ -406,3 +406,22 @@ dynamicArray(n, queries); */
 
 
 //Grid Challenge
+/* const grid=['ebacd','fghij','olmkn','trpqs','xywuv'];
+function gridChallenge(grid) {
+  let n=grid[0].length;
+  let orderedGrid=[];
+  for(let i=0; i<grid.length; i++){
+    orderedGrid[i]=grid[i].split('').sort().join('');
+  }
+  for(let i=0; i<n; i++){
+    for(let j=0; j<orderedGrid.length-1; j++){
+      if(orderedGrid[j][i].charCodeAt()<=orderedGrid[j+1][i].charCodeAt()){
+        continue;
+      }else{
+        return 'NO';
+      }
+    }
+  }
+  return 'YES';
+}
+gridChallenge(grid); */

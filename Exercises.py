@@ -15,6 +15,8 @@ t = "00101"
 print(strings_xor(s, t))"""
 
 
+
+
 #Week 2
 #Zig Zag Sequence
 """def findZigZagSequence(a, n):
@@ -39,3 +41,6 @@ print(strings_xor(s, t))"""
 n = 7
 a = [1,2,3,4,5,6,7]
 findZigZagSequence(a, n)"""
+
+
+#Prime Dates
